@@ -1,63 +1,70 @@
 a {
-  color: #885df1;
+  color: #4cf509ea;
 }
 body {
-  background-color: aliceblue;
-  font-family: "Playfair Display", serif;
+  background-color: #cbd9e6;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .weatherapp {
-  background: rgb(154, 206, 240);
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/161/822/original/graeme-cross-aDLdo_VpYfA-unsplash.jpg?1743414230");
   border-radius: 20px 15px;
-  max-width: 800px;
+  max-width: 700px;
   margin: 45px auto;
   padding: 30px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 0 30px 50px rgba(55, 46, 75, 0.08);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header {
-  border-bottom: 1px solid white;
   padding: 0 0 30px 0;
+  margin-bottom: 20px;
 }
 .search-form-input {
   background-color: white;
   border: none;
   border-radius: 6px;
   width: 80%;
-  font-size: 16px;
+  font-size: 18px;
   padding: 15px 20px;
 }
 .search-form-button {
-  font-size: 16px;
+  font-size: 18px;
   border: none;
   border-radius: 6px;
-  color: blueviolet;
-  background: white;
+  color: #f8f9fa;
+  background: #7eacd8;
   padding: 15px 30px;
   margin-left: 5px;
 }
 main {
-  padding: 30px 0;
+  padding: 10px 0;
 }
 .app-data {
-  display: flex;
   justify-content: space-between;
 }
 .weather-app-city {
-  margin: 0;
-  font-size: 40px;
+  margin-top: 20px;
+  font-size: 48px;
   line-height: 48px;
+  color: #f8f9fa;
 }
 .weather-app-details {
-  font-size: 16px;
-  color: rgba(39, 33, 66, 0.4);
+  font-size: 18px;
+  color: #f8faf6;
   line-height: 24px;
   font-weight: 500;
+  padding-top: 30px;
 }
 .weather-app-details strong {
-  color: #f65282;
+  color: #4cf509ea;
 }
 .weather-app-temperature-container {
   display: flex;
+  position: relative;
+  justify-content: flex-end;
+  top: -240px;
+  color: #f8f9fa;
 }
 .weather-app-icon {
   width: 88px;
@@ -76,6 +83,6 @@ footer {
   border-top: 1px solid #f9f7ff;
   padding: 30px 0 0 0;
   text-align: center;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+  color: #f5f5f5f3;
 }
