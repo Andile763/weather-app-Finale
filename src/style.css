@@ -38,7 +38,7 @@ header {
   margin-left: 5px;
 }
 main {
-  padding: 10px 0;
+  padding: 15px 0;
 }
 .app-data {
   justify-content: space-between;
@@ -63,21 +63,21 @@ main {
   display: flex;
   position: relative;
   justify-content: flex-end;
-  top: -240px;
+  top: -190px;
   color: #f8f9fa;
 }
 .weather-app-icon {
-  width: 88px;
-  height: 88px;
+  width: 65px;
+  height: 65px;
 }
 .weather-app-temperature {
-  font-size: 88px;
-  line-height: 88px;
+  font-size: 65px;
+  line-height: 65px;
   font-weight: bold;
 }
 .weather-app-unity {
-  margin-top: 6px;
-  font: size 28px;
+  margin-top: 10px;
+  font: size 30px;
 }
 footer {
   border-top: 1px solid #f9f7ff;
