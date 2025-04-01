@@ -12,7 +12,7 @@ body {
   max-width: 700px;
   margin: 45px auto;
   padding: 30px;
-  box-shadow: 0 30px 50px rgba(55, 46, 75, 0.08);
+  box-shadow: 0 30px 50px #372e4b14;
   background-repeat: no-repeat;
   background-size: cover;
 }
